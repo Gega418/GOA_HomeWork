@@ -1,0 +1,38 @@
+<<<<<<< HEAD
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(17, 114, 114);
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+=======
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(17, 114, 114);
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+>>>>>>> 217e13265442f77198ae78d8644909733855d02c
+}

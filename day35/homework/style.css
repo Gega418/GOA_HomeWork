@@ -1,0 +1,45 @@
+body {
+    background-color: lightcyan;
+    text-align: center;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    font-size: 45px;
+}
+
+.car {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #333;
+}
+
+.model-name {
+    color: darkred;
+}
+
+
+.car-img {
+    width: 300px;         
+    height: 200px;        
+    border-style: double; 
+    border-width: 4px;
+    border-color: grey;
+}
+
+.price {
+    font-size: 22px;
+    color: green;
+}
+
+
+#tesla-img {
+    border-color: red;    
+    width: 350px;         
+}
+
+#special-car {
+    background-color: #f0f0f0;
+}

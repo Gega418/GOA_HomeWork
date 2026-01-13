@@ -1,0 +1,140 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+#para1 {
+    font-family: 'Atkinson Hyperlegible Mono', monospace;
+    text-decoration: dashed underline rgb(0, 0, 255) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#para2 {
+    font-family: 'Lato', sans-serif;
+    text-decoration: dotted underline rgb(255, 0, 0) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+#para3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: wavy underline rgb(0, 128, 0) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+#para4 {
+    font-family: 'Goblin One', cursive;
+    text-decoration: solid underline rgb(255, 165, 0) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Goblin+One&display=swap');
+
+#para5 {
+    font-family: "Bevan", serif;
+    text-decoration: double underline rgb(128, 0, 128) 3px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+#para6 {
+    font-family: "Poiret One", sans-serif;
+    text-decoration: overline rgb(0, 0, 0) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+#para7 {
+    font-family: "Shrikhand", serif;
+    text-decoration: line-through rgb(255, 0, 255) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+
+#para8 {
+    font-family: "Meddon", cursive;
+    text-decoration: underline overline rgb(0, 255, 255) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap');
+
+#para9 {
+    font-family: "Mate", serif;
+    text-decoration: underline rgb(128, 128, 128) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+#para10 {
+    font-family: "Story Script", sans-serif;
+    text-decoration: dashed overline rgb(255, 192, 203) 2px;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+#para1 {
+    font-family: 'Atkinson Hyperlegible Mono', monospace;
+    text-decoration: dashed underline rgb(0, 0, 255) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#para2 {
+    font-family: 'Lato', sans-serif;
+    text-decoration: dotted underline rgb(255, 0, 0) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+#para3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: wavy underline rgb(0, 128, 0) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+#para4 {
+    font-family: 'Goblin One', cursive;
+    text-decoration: solid underline rgb(255, 165, 0) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Goblin+One&display=swap');
+
+#para5 {
+    font-family: "Bevan", serif;
+    text-decoration: double underline rgb(128, 0, 128) 3px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+#para6 {
+    font-family: "Poiret One", sans-serif;
+    text-decoration: overline rgb(0, 0, 0) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+#para7 {
+    font-family: "Shrikhand", serif;
+    text-decoration: line-through rgb(255, 0, 255) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+
+#para8 {
+    font-family: "Meddon", cursive;
+    text-decoration: underline overline rgb(0, 255, 255) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap');
+
+#para9 {
+    font-family: "Mate", serif;
+    text-decoration: underline rgb(128, 128, 128) 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+#para10 {
+    font-family: "Story Script", sans-serif;
+    text-decoration: dashed overline rgb(255, 192, 203) 2px;
+>>>>>>> 217e13265442f77198ae78d8644909733855d02c
+}

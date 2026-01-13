@@ -1,0 +1,57 @@
+label {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+    font-family: fantasy;
+    font-size: 14px;
+    border: 1px solid #070007;
+    border-radius: 7px;
+}
+
+input[type="submit"] {
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    border-radius: 10px;
+}
+
+#bt1:hover {
+    font-family: cursive;
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgb(255, 0, 0);
+    color: yellow;
+    border-radius: 15px;
+}
+
+#bt2:active {
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(0, 255, 0);
+    color: blue;
+    border-radius: 15px;
+}
+
+#bt3:visited {
+    font-family: cursive;
+    font-size: large;
+    font-weight: italic;
+    background-color: rgb(0, 0, 255);
+    color: orange;
+    border-radius: 15px;
+}
+
+#bt4:hover {
+    font-family: cursive;
+    font-size: large;
+    font-weight: italic;
+    background-color: rgb(255, 255, 0);
+    color: purple;
+    border-radius: 15px;
+}

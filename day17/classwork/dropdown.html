@@ -1,0 +1,82 @@
+<!-- 1) კომენტარებით ახსენი დღევანდელ გაკვეთილზე ნასწავლი თეგები.
+
+2) შექმენი პატარა ვებსაიტი (ან პროგრამა), სადაც გექნება დროპდაუნ მენიუ(ჩამოსაშლელი სია) ამ სიიდან უნდა აირჩიო შენი საყვარელი ფერი 10 შესაძლო ვარიანტიდან.
+
+3) შექმენი დროპდაუნ მენიუ, სადაც შეგიძლია აირჩიო რას შეჭამ ლანჩზე. სადაც გექნება 5 შესაძლო ვარიანტი.
+
+4) შექმენი დროპდაუნ მენიუ, სადაც შეგიძლია აირჩიო კვირის დღე.
+
+5) შექმენი დროპდაუნ მენიუ, სადაც შეგიძლია აირჩიო ქვეყანა, სადაც გინდა იმოგზაურო. სადაც გექნება 10 შესაძლო ვარიანტი. -->
+
+
+<!-- 1 -->
+<!-- dropdown - შეგვიძლია საიტზე გამოვიტანოთ სხვადასხვა ვარიანტები რომელიც გამოსახული იქნება ჩამოსაშლელი მენიუთი
+select - ეს არის თეგი რომელიც გამოიყენება dropdown მენიუს შესაქმნელად
+option - ეს არის თეგი რომელიც გამოიყენება dropdown მენიუს თითოეული ვარიანტის შესაქმნელად -->
+
+
+<!-- 2 -->
+ <form action="">
+   <select name="" id="">
+        <label for="colorselect">ფერი</label>
+        <select name="colorselect" id="colorselect"></select>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+        <option value="yellow">yellow</option>
+        <option value="black">black</option>
+        <option value="white">white</option>
+        <option value="purple">purple</option>
+        <option value="orange">orange</option>
+        <option value="pink">pink</option>
+        <option value="brown">brown</option>
+    </select>
+        
+    
+ </form>
+
+ <label for="lunchSelect">ლანჩი:</label>
+<select id="lunchSelect" aria-label="აირჩიე ლანჩი">
+<option value="veg-salad">ბოსტნეულის სალათი — Vegetables Salad</option>
+<option value="chicken-fillet">ქათმის ფილე — Chicken Fillet</option>
+<option value="meat-pasta">ხორციანი პასტა — Meat Pasta</option>
+<option value="soup">ცხელი სუპი — Hot Soup</option>
+<option value="sandwich">სენდვიჩი — Sandwich</option>
+</select>
+
+
+<label for="lunchSelect">ლანჩი:</label>
+ <select id="lunchSelect" aria-label="აირჩიე ლანჩი">
+ <option value="veg-salad">ბოსტნეულის სალათი — Vegetables Salad</option>
+ <option value="chicken-fillet">ქათმის ფილე — Chicken Fillet</option>
+ <option value="meat-pasta">ხორციანი პასტა — Meat Pasta</option>
+ <option value="soup">ცხელი სუპი — Hot Soup</option>
+ <option value="sandwich">სენდვიჩი — Sandwich</option>
+ </select>
+
+
+
+
+ <label for="daySelect">კვირის დღე:</label>
+ <select id="daySelect" aria-label="აირჩიე კვირის დღე">
+ <option value="monday">ორშაბათი</option>
+ <option value="tuesday">სამშაბათი</option>
+ <option value="wednesday">ოთხშაბათი</option>
+ <option value="thursday">ხუთშაბათი</option>
+ <option value="friday">პარასკევი</option>
+ <option value="saturday">შაბათი</option>
+ <option value="sunday">კვირა</option>
+ </select>
+
+
+ <div class="preview" id="preview">
+ <strong>არჩეული დღე:</strong>
+ <div id="chosen" style="margin-top:8px;font-weight:700">-</div>
+ <div class="controls">
+ <button id="saveBtn">შენახვა</button>
+ <button class="ghost" id="clearBtn">გადაწურვა</button>
+ </div>
+ </div>
+
+
+ 

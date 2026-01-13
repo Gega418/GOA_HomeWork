@@ -1,0 +1,100 @@
+<!-- 1) შექმენით რეცეპტების Single-page ვებ-საიტი. დაამატეთ ფოტოები, ღილაკები, Heading-ები, Paragraph-ები და ა.შ.
+გამოიყენეთ აქამდე ნასწავლი Css-ის მასალა, რათა გასტილოთ თქვენი ვებ-საიტი. გამოიყენეთ internal CSS.
+
+2)გადახედეთ აუცილებლად ჩანაწერს
+
+3)ახსენით კომენტარებით რას ნიშნავს inline css, internal css და external css
+
+4)დაასრულეთ საკლასო დავალება -->
+
+<!-- ---------------------------------------------------------------------------------- -->
+
+<!-- 1 -->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>საჭმლის რეცეპტები</title>
+    <style>
+        header {
+            text-align: center;
+            background-color:grey ;
+            height: 50px;
+        }
+        div {
+            background-color: limegreen;
+            height: 465px;
+        }
+        div p {
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+        section {
+            background-color: orange;
+            height: 465px;
+        }
+        section p {
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+        footer {
+            background-color: grey;
+            color: white;
+            text-align: center;
+            height: 30px;
+            color: black;
+            font-family: fantasy;
+        }
+        section b {
+            font-size: 18px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>საჭმლის რეცეპტები</h1>
+    </header>
+    <main><div>
+        <h2>ბერძნული სალათი</h2>
+        <h4>ინგრედიენტები:</h4>
+        <ul>
+            <li>პომიდორი</li>
+            <li>კიტრი</li>
+            <li>ფეტა ყველი</li>
+            <li>ზეთისხილი</li>
+            <li>ზეითუნის ზეთი</li>
+        </ul>
+        <img src="./ბერძნული სალათი.jpg" alt="ბერძნული სალათი" text-align="right">
+        <p>ეს არის ძალიან მარტივი და გემრიელი სალათი, რომელიც იდეალურია ზაფხულში.</p>
+    </div>
+    
+    
+    <section>
+        <h2>მაკარონი ყველის სოუსით</h2>
+        <h4>ინგრედიენტები:</h4>
+        <ul>
+            <li>მაკარონი</li>
+            <li>რძე</li>
+            <li>ყველი</li>
+            <li>კარაქი</li>
+            <li>ფქვილი</li>
+        </ul>
+        <img src="./მაკარონი ყველის სოუსით.jpg" alt="მაკარონი ყველის სოუსით">
+        <p>ეს არის ძალიან გემრიელი და მარტივი რეცეპტი, რომელიც ყველას მოეწონება.</p>
+    </section>
+    </main>
+    <footer>
+        <p>© 2025 რეცეპტების საიტი</p>
+    </footer>
+</body>
+</html>  
+
+<!-- 3 -->
+<!-- inline css - ეს არის CSS-ის სტილი, რომელიც პირდაპირ HTML ელემენტშია ჩაწერილი. მაგალითად: <div style="color: red;"> </div>
+internal css - ეს არის CSS-ის სტილი, რომელიც ჩაწერილია <style> ტეგში, რომელიც მდებარეობს <head> სექციაში.
+external css - ეს არის CSS-ის სტილი, რომელიც ჩაწერილია ცალკე .css ფაილში და დაკავშირებულია HTML დოკუმენტთან <link> ტეგის საშუალებით. -->
+

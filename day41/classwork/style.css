@@ -1,0 +1,15 @@
+ #list1 {
+    list-style-type: georgian;
+}
+
+#list2 {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-image: url(./image.png);
+}
+
+#list4 {
+    list-style: square inside url(./image.png);
+} 

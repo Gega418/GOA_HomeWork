@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+body{
+    background-color: #7788;
+}
+
+header nav a{
+    color: #808080;
+    width: 300px;
+    text-align: center;
+}
+
+header{
+    background-color: #000000;
+    text-align: center;
+}
+
+#Audi{
+    font-size:  20px;
+}
+
+#BMW{
+    font-size: 20px;
+}
+
+#Mercedes{
+    font-size: 20px;
+}
+
+#price{
+    font-size: medium;
+}
+
+img{
+    width: 300px;
+    border: 2px solid #000000;
+=======
+body{
+    background-color: #7788;
+}
+
+header nav a{
+    color: #808080;
+    width: 300px;
+    text-align: center;
+}
+
+header{
+    background-color: #000000;
+    text-align: center;
+}
+
+#Audi{
+    font-size:  20px;
+}
+
+#BMW{
+    font-size: 20px;
+}
+
+#Mercedes{
+    font-size: 20px;
+}
+
+#price{
+    font-size: medium;
+}
+
+img{
+    width: 300px;
+    border: 2px solid #000000;
+>>>>>>> 217e13265442f77198ae78d8644909733855d02c
+}

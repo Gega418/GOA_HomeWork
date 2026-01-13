@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+#wavy {
+    text-decoration: underline wavy green; 
+    color: black;
+}
+
+#dashed {
+    text-decoration: underline overline dashed red;
+    color: black;
+}
+
+#line-through {
+    text-decoration: line-through blue;
+    color: black;
+}
+=======
+#wavy {
+    text-decoration: underline wavy green; 
+    color: black;
+}
+
+#dashed {
+    text-decoration: underline overline dashed red;
+    color: black;
+}
+
+#line-through {
+    text-decoration: line-through blue;
+    color: black;
+}
+>>>>>>> 217e13265442f77198ae78d8644909733855d02c

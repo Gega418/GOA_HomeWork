@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+input[type="text"],
+input[type="password"] {
+    width: 170px;
+    text-align: left;
+    height: 35px;
+}
+
+input[type="submit"] {
+    width: 50px;
+    height: 35px;
+    background-color: rgb(1, 101, 23);
+    color: white;
+    text-align: center;
+}
+
+h3, p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    width: 250px;
+}
+=======
+input[type="text"],
+input[type="password"] {
+    width: 170px;
+    text-align: left;
+    height: 35px;
+}
+
+input[type="submit"] {
+    width: 50px;
+    height: 35px;
+    background-color: rgb(1, 101, 23);
+    color: white;
+    text-align: center;
+}
+
+h3, p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    width: 250px;
+}
+>>>>>>> 217e13265442f77198ae78d8644909733855d02c
