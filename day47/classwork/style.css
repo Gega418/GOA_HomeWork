@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: auto;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    margin: 15px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.card h2 {
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+
+#korea {
+    background-image: url("./korea.webp");
+}
+
+#tbilisi {
+    background-image: url("./tbilisi.webp");
+}
+
+#newyork {
+    background-image: url("./newyork.webp");
+}
+
+#paris {
+    background-image: url("./paris.webp");
+}
+
+#tokyo {
+    background-image: url("./tokyo.webp");
+}
+
+#dubai {
+    background-image: url("./dubai.webp");
+}

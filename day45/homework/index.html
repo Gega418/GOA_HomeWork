@@ -1,0 +1,67 @@
+<!-- 1) შექმენით ფილმების ვებსაიტი,რომელსაც ექნება 4 გვერდი Home,contact, about us,registration page,გასტილეთ საიტი ყველანაირად,გამოიყენეთ box-model იც, ნორმალურად გასტილეთ, დრო გექნებათ შემდეგ css ის გაკვეთილამდე, თუ საიტი უხარისხოდ იქნება გასტილული არ ჩავთვლი დავალებას და ჩემთან მოგიწევთ ვოისში გაკეთება, უხარისხოდ გაკეთებულში იგულისხმება,როცა 2 ხაზი კოდი გიწერიათ css ში და როცა გეზარებათ გაკეთება, გააკეთეთ თუგინდათ მასე და იზარმაცეთ მაგრამ იცოდეთ რომ მასე არაფერი არ გამოგივათ ამ სფეროში <3
+2) ახსენით რა არის CSS Box Model და შექმენით თქვენი ნახაზი
+
+3) დაწერეთ როგორ მუშაობს padding და margin, ჩამოთვალეთ CSS Box Model-ის ყველა შრე. ასევე CSS-ში დაწერეთ CSS reset-ის კოდი და ახსენით რისთვის ვიყენებთ
+
+4) შექმენით 5 div ბლოკი, გაუწერეთ სხვადასხვა კუთვნილებები, აუცილებლად მიანიჭეთ ყველას margin და padding, გატესტეთ სხვადასხვა ვარიანტები
+
+5) შექმენით div ელემენტი id="container". მას მიანიჭეთ width და height მნიშვნელობები, მაგალითად 300px და 200px, ასევე background-color.
+
+შემდეგ ამ ელემენტს გაუწერეთ შემდეგი თვისებები:
+- padding: 20px;
+- border: 5px solid black;
+- margin: 30px;
+
+დამატეთ კომენტარები კოდის თავზე ან შიგნით, სადაც განმარტავთ:
+- რა არის padding
+- რა არის border
+- რა არის margin
+- რა არის content
+
+ასევე მიუთითეთ, როგორ მუშაობს მთლიანობაში Box Model.-->
+
+
+<!-- 1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MovieZone | Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">
+                Home
+            </a>
+            <a href="./about.html">
+                About Us
+            </a>
+            <a href="./contact.html">
+                Contact
+            </a>
+            <a href="./registration.html">
+                Register
+            </a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Popular Movies</h1>
+        <div class="card">
+            <img src="./conj.webp" alt="The Conjuring">
+            <h3>The Conjuring</h3>
+            <p>Movie with paranormal things and based on true story.</p>
+        </div>
+        <div class="card">
+            <img src="./int.webp" alt="Interstellar">
+            <h3>Interstellar</h3>
+            <p>Journey through space and time</p>
+        </div>
+    </div>
+    <footer>
+        <p>2026 MovieZone</p>
+    </footer>
+</body>
+</html>
