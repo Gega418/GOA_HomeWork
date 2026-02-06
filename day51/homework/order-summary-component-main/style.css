@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+#body {
+    height: 100vh;
+    background-color: #d6e1ff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    height: 500px;
+    width: 331px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+img {
+    height: 160px;
+    width: 100%;
+}
+
+#child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    text-align: center;
+    gap: 8px;
+}
+
+#songs {
+    font-size: 16px;
+    color: #8b8f99;
+    font-weight: 450;
+}
+
+#child1 {
+    width: 80%;
+    height: 50px;
+    background-color: #f8f9fe;
+    margin-left: 34px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#Change {
+    width: 65px;
+    margin-left: 70px;
+    padding-top: 15px;
+    background-color: #f8f9fe;
+    border: none;
+    text-decoration: underline;
+    color: #312b8b;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#music {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+#plan {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+#price {
+    color: #8b8f99;
+    font-size: 14px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-left:30px;
+    gap: 15px;
+}
+
+#payment {
+    background-color: #382ae1;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    box-shadow: 10px, 5px, 8px;
+    cursor: pointer;
+}
+
+#cancel {
+    background-color: white;
+    border: none;
+    height: 40px;
+    color: gray;
+    font-weight: 500;
+    cursor: pointer;
+}
+
