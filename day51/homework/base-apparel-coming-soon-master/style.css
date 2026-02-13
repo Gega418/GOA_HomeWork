@@ -7,22 +7,3 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-#base {
-    display: flex;
-    width: 160px;
-    margin-top: 40px;
-    margin-left: 103px;
-}
-
-#main {
-    display: flex;
-    width: 320px;
-    padding-top: 86px;
-    margin-left: 103px;
-    font-size: 25px;
-}
-
-#content {
-    display: flex;
-    
-}

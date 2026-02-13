@@ -1,0 +1,31 @@
+#block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 600px;
+    height: 50px;
+    border: 3px solid cyan;
+}
+
+#block div {
+    border: 2px solid cyan;
+    text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+  width: 600px;
+  height: 50px;
+  border: 3px solid cyan;
+}
+
+.grid div {
+    border: 2px solid cyan;
+
+}
+
+.wide {
+  grid-column: span 2; 
+}
