@@ -1,0 +1,23 @@
+#container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#main {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:orange;
+    animation: moving 5s infinite alternate ;
+}
+
+@keyframes moving {
+    25% {
+        transform: scale(0.5) translate(150px, -500px);
+    }
+
+    50% {
+        transform: scale(3) translate(150px, 100px);
+    }
+}

@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#main {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: cyan;
+    animation: moving 1s infinite alternate ;
+}
+
+@keyframes moving {
+    25% {
+        transform: scale(1.5) translate(80px, -80px);
+    }
+
+    50% {
+        transform: scale(3) translate(100px, -100px);
+    }
+
+    75% {
+        transform: scale(1.5) translate(250px, -50px);
+    }
+
+    100% {
+        transform: scale(1) translate(500px, 20px);
+    }
+}

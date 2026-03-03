@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#main {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ff7a5a;
+    animation: moving 5s infinite alternate ;
+}
+
+@keyframes moving {
+    25% {
+        transform: translate(150px, 0px);
+    }
+
+    50% {
+        transform: translate(150px, 50px);
+    }
+
+    100% {
+        transform: translate(-50px, 50px);
+    } 
+}
