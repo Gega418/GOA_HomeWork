@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#body {
+    background: #f5f6fa;
+    color: #222;
+}
+
+#heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+#heading h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#gsbl {
+    background: #13183f;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#gsbl:hover {
+    background-color: #666ca3;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+#text {
+    width: 500px;
+}
+
+#text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#text p {
+    color: #83869a;
+    margin-bottom: 25px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+#text button {
+    background-image: linear-gradient(#ff6f61, #ff3cac);
+    color: white;
+    padding: 14px 26px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#text button:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
+#img {
+    background-image: url(./images/main.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 570px;
+    width: 550px;
+}
+
+#grid {
+    padding: 60px 80px;
+}
+
+#mgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-auto-rows: 1fr;
+    align-items: stretch;
+}
+
+#popular {
+    background: linear-gradient(#fe6c4c, #f12ba6);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 100%;
+}
+
+#anime, #design, #crypto, #photo, #business {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#anime:hover {
+    transform: translateY(-10px);
+}
+
+#photo:hover {
+    transform: translateY(-10px);
+}
+
+#business:hover {
+    transform: translateY(-10px);
+}
+
+#crypto:hover {
+    transform: translateY(-10px);
+}
+
+#design:hover {
+    transform: translateY(-10px);
+}
+
+#mgrid img {
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+#mgrid h3 {
+    margin-bottom: 10px;
+}
+
+#mgrid p {
+    font-size: 14px;
+    color: #83869A;
+    margin-bottom: 15px;
+}
+
+#mgrid a {
+    text-decoration: none;
+    color: #ff3cac;
+    font-weight: bold;
+}
+
+#footer {
+    background: #13183f;
+    color: white;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gspr {
+    background: linear-gradient(#943fd7, #eb2ba9);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#gspr:hover {
+    background: linear-gradient(#c4a0ee, #f795d3);
+}
+
+@media (max-width: 1024px) {
+    #heading, #main, #grid, #footer {
+        padding: 40px 40px; 
+    }
+
+    #text {
+        width: 45%;
+    }
+
+    h1 {
+        font-size: 35px; 
+    }
+
+    #mgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 710px) {
+    #heading, #main, #grid, #footer {
+        padding: 24px 16px; 
+    }
+
+    #main {
+        flex-direction: column; 
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    #text {
+        width: 100%; 
+        margin-bottom: 40px;
+    }
+
+    #text h1 {
+        font-size: 32px; 
+    }
+
+    #img {
+        width: 100%;
+        height: 350px; 
+        background-position: center;
+        background-image: url(./images/mainmobile.png);
+    }
+
+    #mgrid {
+        grid-template-columns: 1fr;
+    }
+
+    #popular {
+        height: 180px; 
+        font-size: 15px;
+    }
+}

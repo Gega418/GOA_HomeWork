@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+/* font-family: "Young Serif", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+/* font-family: "Outfit", sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+#photo {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    width: 90%;
+    margin-top: 25px;
+}
+
+#simple {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#simple h1 {
+    color: #312d2c;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#simple p {
+    color: #8e8e8c;
+    font-weight: 200;
+    line-height: 20px;
+    font-family: "Outfit", sans-serif;
+}
+
+#mainest {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-radius: 15px;
+    height: 85%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#preparation {
+    margin-top: 50px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#time {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+span {
+    color: #4e4943;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+li {
+    font-family: "Outfit", sans-serif;
+    color: #61585a;
+}
+
+#ingredients {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#ingredients ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#ingredients span{
+    margin-left: 3px;
+    font-weight: 350;
+}
+
+#ingredients h1{
+    color: #844732;
+    font-family: "Young Serif", serif;
+    font-weight:normal;
+}
+
+#preparation h3{
+    color: #8a5a70;
+    font-family: "Outfit", sans-serif;
+}
+
+#instructions {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#instructions h1{
+    color: #844732;
+    font-family: "Young Serif", serif;
+    font-weight:normal;
+}
+
+#instructions ol{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#nutrition {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#nutrition h1{
+    color: #844732;
+    font-family: "Young Serif", serif;
+    font-weight:normal;
+}
+
+#nutrition p{
+    color: #61585a;
+    font-weight: 400;
+}
+
+#calories {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 150px;
+}
+
+#nut {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+#nums {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#nut p{
+    color: #61585a;
+    font-family: "Outfit", serif;
+}
+
+#nums p {
+    color: #7f5742;
+    font-weight: bolder;
+    font-family: "Outfit", serif;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+@media (max-width:674px) {
+    #mainest {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+}
