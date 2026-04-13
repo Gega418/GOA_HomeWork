@@ -175,7 +175,8 @@
 }
 
 #gspr:hover {
-    background: linear-gradient(#c4a0ee, #f795d3);
+    background-color: white;
+    opacity: 0.5;
 }
 
 @media (max-width: 1024px) {

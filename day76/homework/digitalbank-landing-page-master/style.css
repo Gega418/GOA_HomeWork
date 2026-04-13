@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 375px;
+    height: 8%;
+    margin-top: 20px;
+}
+
+#links {
+    display: flex;
+    gap: 15px;
+}
+
+#links a {
+    text-decoration: none;
+    color: gray;
+}
+
+#topb {
+    background-image: linear-gradient(30deg, #35ce6c, #2fbac6);
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+#main {
+    margin-top: 20px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content:space-between;
+}
+
+#digbank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 91px;
+}
+
+#digbank p {
+    color: gray;
+    font-weight: 300;
+}
+
+#midb {
+    background-image: linear-gradient(30deg, #35ce6c, #2fbac6);
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+#digbank h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #2f2f49;
+}
+
+#phone {
+    background-image: url(./images/bg-intro-desktop.svg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#main2 {
+    margin-top: 70px;
+}
+
+#choosedig {
+    display: flex;
+    flex-direction: column;
+    margin-left: 91px;
+    gap: 15px;
+}
+
+#choosedig p {
+    color: gray;
+    font-weight: 300;
+}
+
+#choosedig h1 {
+    color: #2f2f49;
+}
+
+#flex {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+#flex p {
+    font-weight: 300;
+    color: gray;
+}
+
+#onlb, #simb, #faso, #api {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#onlb img {
+    width: 25%;
+}
+
+#simb img {
+    width: 25%;
+}
+
+#faso img {
+    width: 25%;
+}
+
+#api img {
+    width: 25%;
+}
+
+#onlb h2 {
+    color: #2c2c33;
+}
+
+#simb h2 {
+    color: #2c2c33;
+}
+
+#faso h2 {
+    color: #2c2c33;
+}
+
+#api h2 {
+    color: #2c2c33;
+}
+
+#arti {
+    margin-top: 128px;
+    margin-left: 92px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#onlyh h1 {
+    color: #2c2c33;
+    font-weight: 500;
+}
+
+#imgt {
+    display: flex;
+    gap: 25px;
+}
+
+#imgt p {
+    color: gray;
+    font-weight: 300;
+}
+
+#imgt h3 {
+    color: #2c2c33;
+    font-weight: 600;
+}
+
+#imgt img {
+    border-radius: 4px;
+}
+
+#money {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#rest {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#fly {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#confet {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#money img, #rest img, #fly img, #confet img {
+    width: 300px;
+    height: 250px;
+}
+
+#monab {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 10px;
+}
+
+#resab {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 10px;
+}
+
+#flyab {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 10px;
+}
+
+#conab {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 10px;
+}
+
+#footer {
+    background-color: #2d314d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 95px;
+    margin-top: 80px;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+#logof img {
+    width: 140px;
+}
+
+.soc {
+    display: flex;
+    gap: 15px;
+}
+
+.soc img {
+    width: 20px;
+    cursor: pointer;
+}
+
+#footerl {
+    display: flex;
+    gap: 80px;
+}
+
+.linksc {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.linksc a {
+    color: #b8bacf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#footerr {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+
+#footerr p {
+    color: #9fa1b8;
+}
+
+#botb {
+    background-image: linear-gradient(30deg, #35ce6c, #2fbac6);
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+button {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
+a {
+    transition: 0.3s;
+}
+
+#links a:hover {
+    color: #32c4a1;
+}
+
+.linksc a:hover {
+    color: #35ce6c;
+}
+
+@media (max-width: 426px) {
+    #header {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    #links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #topbut {
+        display: none; 
+    }
+
+    #main {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #digbank {
+        margin-left: 0;
+        padding: 40px 20px;
+        align-items: center;
+    }
+
+    #digbank h1 {
+        font-size: 32px;
+    }
+
+    #digbank p {
+        font-size: 14px;
+    }
+
+    #phone {
+        width: 100%;
+        height: 300px;
+        background-image: url(./images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #phone img {
+        width: 90%;
+        transform: translateY(-100px);
+    }
+
+    #choosedig {
+        margin-left: 0;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+    }
+
+    #onlb, #simb, #faso, #api {
+        align-items: center;
+    }
+
+    #onlb img, #simb img, #faso img, #api img {
+        width: 60px;
+    }
+
+    #arti {
+        margin-left: 0;
+        padding: 0 20px;
+        text-align: left;
+    }
+
+    #imgt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #money img, #rest img, #fly img, #confet img {
+        width: 100%;
+        width: 350px;
+    }
+
+    #footer {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    #footerl {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .linksc {
+        align-items: center;
+    }
+
+    #footerr {
+        align-items: center;
+    }
+
+    #onlyh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
