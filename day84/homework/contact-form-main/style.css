@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+#body {
+    background-color: #e0f1e7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    background-color: white;
+    width: 580px;
+    height: 580px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#main h2 {
+    text-align: left;
+    padding: 20px;
+}
+
+#names {
+    display: flex;
+    padding-left: 20px;
+    gap: 15px;
+}
+
+#firn, #lans {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#firn input, #lans input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#firn p, #lans p {
+    font-size: 12px;
+}
+
+#email1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+#email1 input {
+    width: 92%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#email1 p {
+    font-size: 12px;
+}
+
+#query {
+  color: #334155; 
+  width: 600px;
+  margin-left: 20px; 
+}
+
+#query p {
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+#gensup {
+  display: flex;
+  gap: 16px; 
+}
+
+#quinp, #quinp2 {
+  display: flex;
+  align-items: center;
+  padding: 14px 24px;
+  border: 1px solid #94a3b8; 
+  border-radius: 8px; 
+  width: 41.5%;
+}
+
+#quinp input, #quinp2 input {
+  width: 18px;
+  height: 18px;
+  margin: 0 12px 0 0; 
+}
+
+#quinp label, #quinp2 label {
+  font-size: 16px;
+  color: #475569;
+}
+
+#message {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#message1 {
+    width: 92%;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#consent {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+#consent input {
+    width: 18px;
+    height: 18px;
+}
+
+#consent label {
+    font-size: 13px;
+    color: #475569;
+}
+
+#submit {
+    width: 92%;
+    margin-left: 20px;
+    
+}
+
+#submit button {
+    width: 100%;
+    padding: 14px;
+    background-color: #0c7d69;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    color: #475569;
+}
+
+#main {
+    background-color: white;
+    width: 580px;
+    height: 580px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
