@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Desserts
+
+  Waffle with Berries
+  Waffle
+  6.50
+  Add to Cart
+
+  Vanilla Bean Crème Brûlée
+  Crème Brûlée
+  7.00
+  Add to Cart
+
+  Macaron Mix of Five
+  Macaron
+  8.00
+  Add to Cart
+
+  Classic Tiramisu
+  Tiramisu
+  5.50
+  Add to Cart
+
+  Pistachio Baklava
+  Baklava
+  4.00
+  Add to Cart
+
+  Lemon Meringue Pie
+  Pie
+  5.00
+  Add to Cart
+
+  Red Velvet Cake
+  Cake
+  4.50
+  Add to Cart
+
+  Salted Caramel Brownie
+  Brownie
+  4.50
+  Add to Cart
+
+  Vanilla Panna Cotta
+  Panna Cotta
+  6.50
+  Add to Cart
+
+  Your Cart ( Quantity )
+  Your added items will appear here -->
+
+    <div id="body">
+      <div id="desserts">
+        <div id="h1">
+          <h1>Desserts</h1>
+        </div>
+        <div id="dessertgr">
+          <div class="productc">
+            <div class="productimg">
+              <img src="./assets/images/image-waffle-desktop.jpg"  />
+              <div class="cartbtn">
+                <img src="./assets/images/icon-add-to-cart.svg" />
+                <span>Add to Cart</span>
+              </div>
+            </div>
+            <div class="productinf">
+              <div class="productcat">Waffle</div>
+              <div class="productnam">Waffle with Berries</div>
+              <div class="productpri">$6.50</div>
+            </div>
+          </div>
+          <div class="productc">
+            <div class="productimg">
+              <img src="./assets/images/image-creme-brulee-desktop.jpg" />
+              <div class="cartbtn">
+                <img src="./assets/images/icon-add-to-cart.svg" />
+                <span>Add to Cart</span>
+              </div>
+            </div>
+            <div class="productinf">
+              <div class="productcat">Crème Brûlée</div>
+              <div class="productnam">Vanilla Bean Crème Brûlée</div>
+              <div class="productpri">$7.00</div>
+            </div>
+          </div>
+          <div class="productc">
+            <div class="productimg">
+              <img src="./assets/images/image-macaron-desktop.jpg" />
+              <div class="cartbtn">
+                <img src="./assets/images/icon-add-to-cart.svg" />
+                <span>Add to Cart</span>
+              </div>
+            </div>
+            <div class="productinf">
+              <div class="productcat">Macaron</div>
+              <div class="productnam">Macaron Mix of Five</div>
+              <div class="productpri">$8.00</div>
+            </div>
+          </div>
+          <div class="productc">
+            <div class="productimg">
+              <img src="./assets/images/image-tiramisu-desktop.jpg" />
+              <div class="cartbtn">
+                <img src="./assets/images/icon-add-to-cart.svg" />
+                <span>Add to Cart</span>
+              </div>
+            </div>
+            <div class="productinf">
+              <div class="productcat">Tiramisu</div>
+              <div class="productnam">Classic Tiramisu</div>
+              <div class="productpri">$5.50</div>
+            </div>
+          </div>
+          <div class="productc">
+            <div class="productimg">
+              <img src="./assets/images/image-baklava-desktop.jpg" />
+              <div class="cartbtn">
+                <img src="./assets/images/icon-add-to-cart.svg" />
+                <span>Add to Cart</span>
+              </div>
+            </div>
+            <div class="productinf">
+              <div class="productcat">Baklava</div>
+              <div class="productnam">Pistachio Baklava</div>
+              <div class="productpri">$4.00</div>
+            </div>
+          </div>
+          <div class="productc">
+            <div class="productimg">
+              <img src="./assets/images/image-meringue-desktop.jpg" />
+              <div class="cartbtn">
+                <img src="./assets/images/icon-add-to-cart.svg" />
+                <span>Add to Cart</span>
+              </div>
+            </div>
+            <div class="productinf">
+              <div class="productcat">Pie</div>
+              <div class="productnam">Lemon Meringue Pie</div>
+              <div class="productpri">$5.00</div>
+            </div>
+          </div>
+          <div class="productc">
+            <div class="productimg">
+              <img src="./assets/images/image-cake-desktop.jpg" />
+              <div class="cartbtn">
+                <img src="./assets/images/icon-add-to-cart.svg" />
+                <span>Add to Cart</span>
+              </div>
+            </div>
+            <div class="productinf">
+              <div class="productcat">Cake</div>
+              <div class="productnam">Red Velvet Cake</div>
+              <div class="productpri">$4.50</div>
+            </div>
+          </div>
+          <div class="productc">
+            <div class="productimg">
+              <img src="./assets/images/image-brownie-desktop.jpg" />
+              <div class="cartbtn">
+                <img src="./assets/images/icon-add-to-cart.svg" />
+                <span>Add to Cart</span>
+              </div>
+            </div>
+            <div class="productinf">
+              <div class="productcat">Brownie</div>
+              <div class="productnam">Salted Caramel Brownie</div>
+              <div class="productpri">$5.50</div>
+            </div>
+          </div>
+          <div class="productc">
+            <div class="productimg">
+              <img src="./assets/images/image-panna-cotta-desktop.jpg" />
+              <div class="cartbtn">
+                <img src="./assets/images/icon-add-to-cart.svg" />
+                <span>Add to Cart</span>
+              </div>
+            </div>
+            <div class="productinf">
+              <div class="productcat">Panna Cotta</div>
+              <div class="productnam">Vanilla Panna Cotta</div>
+              <div class="productpri">$6.50</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="cartsec">
+        <div id="cartcont">
+          <div id="carthead">
+            <h2>Your Cart (0)</h2>
+          </div>
+          <div id="cartempt">
+            <div id="emptcart">
+              <img src="./assets/images/illustration-empty-cart.svg" />
+            </div>
+            <div id="emptytex">
+              <p>Your added items will appear here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

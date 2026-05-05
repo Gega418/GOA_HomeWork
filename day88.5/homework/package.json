@@ -1,0 +1,12 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "GOA Level 88.5 Project",
+  "license": "ISC",
+  "author": "Me",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
