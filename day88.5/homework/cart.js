@@ -3,7 +3,7 @@ let cart = []
 
 const addProduct = (element) => {
     const name = element.querySelector("h3").textContent
-    const price = element.querySelector(".price").textContent
+    let price = Number(element.querySelector(".price").textContent)
 
     let currentProduct = {
         name: name,
@@ -15,7 +15,7 @@ const addProduct = (element) => {
 
     if (exists) {
         exists.quantity++
-        // price += quantity * price
+        exists.price = exists.quantity * price
         set("clothes", cart)
     } else {
         cart.push(currentProduct)

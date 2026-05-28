@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="body">
+        <div id="sidebar">
+            <h2>ფილტრაცია</h2>
+            <div class="filtergroup">
+                <label for="searchInput">ძებნა:</label>
+                <input type="text" id="searchInput" placeholder="მოძებნე მოდელი ან ბრენდი...">
+            </div>
+
+            <div class="filtergroup">
+                <label for="brandSelect">ბრენდი:</label>
+                <select id="brandSelect">
+                    <option value="All">ყველა ბრენდი</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Subaru">Subaru</option>
+                    <option value="Mercedes-Benz">Mercedes-Benz</option>
+                </select>
+            </div>
+            <div class="filtergroup">
+                <label for="sortSelect">ფასი:</label>
+                <select id="sortSelect">
+                    <option value="default">სტანდარტული</option>
+                    <option value="up">ზრდადობით (იაფიდან)</option>
+                    <option value="down">კლებადობით (ძვირიდან)</option>
+                </select>
+            </div>
+        </div>
+        <div id="main-content">
+            <div id="cars-container"></div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

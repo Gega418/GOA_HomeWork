@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+#body {
+    height: 100vh;
+    background-color: #141D2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#main {
+    width: 100%;
+    max-width: 730px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#devf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#logo {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#lightic {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+
+#lightic:hover {
+    color: #90A4D4;
+}
+
+#lighttex {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+
+#searchsec {
+    background-color: #1E2A47;
+    border-radius: 15px;
+    padding: 10px 10px 10px 32px; 
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    width: 100%;
+}
+
+#searchico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchico img {
+    width: 30px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    background-color: #1E2A47; 
+    padding: 10px 10px 10px 32px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 730px;
+}
+
+#searchinput {
+    flex-grow: 1;
+    background-color: #1E2A47;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+#searchinput::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+#searchbtn {
+    background-color: #0079FF;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#searchbtn:hover {
+    background-color: #60ABFF;
+}
+
+#profilesec {
+    background-color: #1E2A47;
+    border-radius: 15px;
+    padding: 48px;
+    display: flex;
+    gap: 37px;
+}
+
+#avatarphot {
+    width: 117px;
+    height: 117px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#avatarimg {
+    width: 100%;
+    height: 100%;
+}
+
+#contentcol {
+    display: flex;
+    flex-direction: column;
+}
+
+#profilehead {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+#username {
+    color: white;
+    font-weight: 700;
+}
+
+#usersom {
+    color: #0079FF;
+}
+
+#joindate {
+    color: #8B949E;
+    margin-top: 6px;
+}
+
+#bio {
+    margin-bottom: 32px;
+}
+
+#biotext {
+    color: #8B949E;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#stats {
+    background-color: #141D2F;
+    border-radius: 10px;
+    padding: 15px 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+.stat1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.stat2 {
+    color: white;
+    font-weight: 700;
+}
+
+#links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: white;
+}
+
+.linkicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linktext {
+    font-size: 15px;
+}
+
+#linkdisabled {
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: white;
+}
