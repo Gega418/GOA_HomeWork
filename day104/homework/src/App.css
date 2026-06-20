@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.body {
+  background-color: #0f1020;
+  min-height: 100vh;
+  margin: auto;
+  padding: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.analyze {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.analyze h1 {
+  max-width: 650px;
+  text-align: center;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+textarea {
+  width: 80%;
+  height: 220px;
+  resize: none;
+  border-radius: 16px;
+  border: 1px solid #2d3048;
+  background: #1b1d32;
+  color: white;
+  padding: 24px;
+  font-size: 18px;
+  outline: none;
+}
+
+textarea::placeholder {
+  color: #a0a3bd;
+}
+
+.cards {
+  margin-top: 35px;
+  display: flex;
+  gap: 20px;
+  width: 80%;
+}
+
+.card {
+  flex: 1;
+  height: 160px;
+  border-radius: 18px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.card h2 {
+  font-size: 72px;
+  font-weight: 700;
+  color: black;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.purple {
+  background: #d7a6ff;
+}
+
+.orange {
+  background: #ffab08;
+}
+
+.coral {
+  background: #ff845d;
+}
